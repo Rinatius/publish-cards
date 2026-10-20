@@ -1,0 +1,181 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Starshield: SpaceX&#x27;s satellite service for governments · News in Cards</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: Instagram-style post (4:5 swipeable slides, dots, caption, hashtags) with a picker for several articles */
+:root{--bg:#eceef2;--fg:#15171c;--muted:#626a78;--post:#fff;--line:#dfe2e8;--ac:#2f6bff;
+--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'DM Sans',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0f13;--fg:#eef0f4;--muted:#9aa2b0;--post:#16191f;--line:#262b34;--ac:#7ea2ff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0f13;--fg:#eef0f4;--muted:#9aa2b0;--post:#16191f;--line:#262b34;--ac:#7ea2ff;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.45 var(--body);padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.pick{max-width:440px;margin:0 auto 14px;display:flex;gap:8px;flex-wrap:wrap}
+.pick button{font:600 13px var(--body);background:var(--post);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer;text-align:left}
+.pick button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.post{max-width:440px;margin:0 auto;background:var(--post);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.ph{display:flex;align-items:center;gap:10px;padding:10px 14px}
+.av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#ff7a59,#ffd84d);display:grid;place-items:center;font:800 15px var(--display);color:#16233f}
+.ph b{display:block;font-size:14px;line-height:1.1}.ph span{font-size:12px;color:var(--muted)}
+.rail{container-type:inline-size;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.fmt{max-width:440px;margin:0 auto 14px;display:flex;gap:6px}
+.fmt button{font:600 12px var(--body);background:none;color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:5px 10px;cursor:pointer}
+.fmt button[aria-pressed="true"]{color:var(--fg);border-color:var(--fg)}
+:root{--ar:4/5;--k:1}
+:root[data-f="square"]{--ar:1/1;--k:.78}
+:root[data-f="wide"]{--ar:16/9;--k:.62}
+:root[data-f="wide"] .pick,:root[data-f="wide"] .fmt,:root[data-f="wide"] .post,:root[data-f="wide"] .note{max-width:760px}
+.sl{--u:calc(1cqw*var(--k));flex:0 0 100%;scroll-snap-align:center;aspect-ratio:var(--ar);position:relative;display:flex;flex-direction:column;justify-content:center;gap:calc(var(--u)*3);padding:calc(var(--u)*9) calc(var(--u)*9) calc(var(--u)*13);box-sizing:border-box;min-width:0;overflow:hidden;background:linear-gradient(160deg,var(--c1),var(--c2));color:var(--ct)}
+.sl.cover{justify-content:flex-end}
+.em{position:absolute;top:7%;left:calc(var(--u)*9);font-size:calc(var(--u)*14);line-height:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.25))}
+.sl.cover .em{font-size:calc(var(--u)*20)}
+.sl.idea,.sl.closing,.sl.stat,.sl.quote{padding-top:calc(var(--u)*27);justify-content:flex-start}
+.sl.stat,.sl.quote{justify-content:center;padding-top:calc(var(--u)*15)}
+.sl.stat .em,.sl.quote .em{top:6%}
+.t{font:800 calc(var(--u)*9)/1.04 var(--display);margin:0;text-wrap:balance;letter-spacing:-.015em}
+.cover .t{font-size:calc(var(--u)*10.5)}
+.b{font-size:calc(var(--u)*4.3);margin:0;opacity:.92;line-height:1.4}
+.sub{font-size:calc(var(--u)*3.9);opacity:.85;margin:0}
+.big{font:800 calc(var(--u)*21)/.95 var(--display);letter-spacing:-.03em;margin:0}
+.lab{font:600 calc(var(--u)*4.8)/1.25 var(--body);margin:0}
+.q{font:800 calc(var(--u)*12)/1 var(--display);margin:0}
+.q::before{content:"\201C";display:block;font-size:1.5em;line-height:.6;opacity:.4}
+.sp{font:600 calc(var(--u)*3.6) var(--body);opacity:.9}
+.cta{align-self:flex-start;margin-top:4px;font:600 calc(var(--u)*3.2) var(--body);border:1.5px solid currentColor;border-radius:999px;padding:.5em 1.1em}
+.pg{position:absolute;right:calc(var(--u)*7);bottom:5%;font-size:calc(var(--u)*2.7);opacity:.65;font-variant-numeric:tabular-nums}
+.sw{position:absolute;left:calc(var(--u)*9);bottom:5%;font-size:calc(var(--u)*2.7);opacity:.65}
+.dots{display:flex;justify-content:center;gap:5px;padding:10px}
+.dots i{width:6px;height:6px;border-radius:50%;background:var(--line)}
+.dots i.on{background:var(--ac)}
+.nav{display:flex;justify-content:space-between;padding:0 14px 6px}
+.nav button{font:600 13px var(--body);background:none;border:1px solid var(--line);color:var(--fg);border-radius:999px;padding:5px 14px;cursor:pointer}
+button:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+.exp{display:flex;gap:8px;flex-wrap:wrap;padding:2px 14px 8px}.exp button{font:600 13px var(--body);background:var(--fg);color:var(--bg);border:0;border-radius:999px;padding:7px 14px;cursor:pointer}.exp button:last-child{background:none;color:var(--fg);border:1px solid var(--line)}.expmsg{padding:0 14px 8px;font-size:12.5px;color:var(--muted)}.expmsg:empty{display:none}
+.cap{padding:4px 14px 2px;font-size:14px}.cap b{font-weight:600}
+.tags{padding:0 14px 14px;color:var(--ac);font-size:14px;overflow-wrap:anywhere}
+.note{max-width:440px;margin:14px auto 0;color:var(--muted);font-size:12.5px;text-align:center}
+.sl.has-img{background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.72)),var(--img) center/cover no-repeat,linear-gradient(160deg,var(--c1),var(--c2));color:#fff}
+.cr{position:absolute;top:3%;right:5%;max-width:48%;font-size:max(9px,calc(var(--u)*2.2));line-height:1.25;opacity:.8;text-align:right}.cr a{color:inherit}
+.art{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;margin-top:calc(var(--u)*2)}
+.art svg{width:100%;height:100%;display:block}
+:root[data-f="wide"] .sl.has-art .t,:root[data-f="wide"] .sl.has-art .b{max-width:50%}
+:root[data-f="wide"] .art{position:absolute;right:calc(var(--u)*9);top:calc(var(--u)*9);bottom:calc(var(--u)*13);width:42%;margin:0}
+/* palettes */
+.sunset{--c1:#ff7a59;--c2:#b0306b;--ct:#fff}.ocean{--c1:#1e6fd9;--c2:#0b2f63;--ct:#fff}.forest{--c1:#2f8f5b;--c2:#0f3b2b;--ct:#fff}
+.berry{--c1:#c43b8a;--c2:#4a1560;--ct:#fff}.slate{--c1:#56627a;--c2:#262d3d;--ct:#fff}.sunshine{--c1:#ffd84d;--c2:#ff9f43;--ct:#2b2100}
+.mint{--c1:#8fe3c0;--c2:#2fb59a;--ct:#06312a}.midnight{--c1:#26325f;--c2:#0a0f24;--ct:#fff}
+.back{max-width:440px;margin:0 auto 12px;font-size:13px}.back a{color:var(--ac);text-decoration:none;font-weight:600}
+:root[data-f="wide"] .back{max-width:760px}
+</style>
+<p class="back"><a href="../">← All stacks</a></p>
+<div class="pick" id="pick" hidden></div>
+<div class="fmt" id="fmt" role="group" aria-label="Format"></div>
+<div class="post">
+ <div class="ph"><div class="av">N</div><div><b>newsincards</b><span id="src"></span></div></div>
+ <div class="rail" id="rail" tabindex="0" aria-label="Carousel slides"></div>
+ <div class="dots" id="dots"></div>
+ <div class="nav"><button id="prev">Back</button><button id="next">Next</button></div>
+ <div class="exp"><button id="exp1" type="button">Download this slide (PNG)</button><button id="expAll" type="button">Download all (ZIP)</button></div><div class="expmsg" id="expmsg" aria-live="polite"></div>
+ <div class="cap" id="cap"></div><div class="tags" id="tags"></div>
+</div>
+<p class="note">Each article becomes a swipeable carousel. Use the format buttons to preview Instagram and YouTube shapes. Image prompts are not rendered yet, so slides without a photo show their emoji on the theme palette.</p>
+<script>
+const all={"items": [{"id": "starshield-explained", "title": "Starshield: SpaceX's satellite service for governments", "category": "technology", "language": "en", "source": {"name": "CNBC, Engadget, GlobalSecurity", "url": "https://www.cnbc.com/2023/09/27/spacex-wins-first-pentagon-contract-for-starshield.html"}, "caption": "What is Starshield, and how is it different from Starlink? 🛰️ Swipe for a quick, sourced explainer.", "hashtags": ["#starshield", "#spacex", "#starlink", "#spacetech"], "theme": {"palette": "slate", "mood": "calm"}, "slides": [{"type": "cover", "headline": "Starshield: SpaceX's satellites for governments", "subtitle": "What it is and what is publicly known", "emoji": "🛰️", "visual": {"style": "illustration", "image_prompt": "Flat illustration of a satellite in orbit above Earth at night with a subtle shield shape", "alt_text": "Satellite orbiting Earth"}, "img": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Starlink_6_satellites.jpg?width=900", "page": "https://commons.wikimedia.org/wiki/File:Starlink_6_satellites.jpg", "file": "Starlink 6 satellites.jpg", "credit": "Starlink satellites (not Starshield). Wikimedia Commons; license/author on file page"}}, {"type": "idea", "headline": "Starlink's government sibling", "body": "SpaceX unveiled Starshield in December 2022. Starlink is for consumers and businesses; Starshield is for government use.", "emoji": "🏛️", "visual": {"style": "icon", "image_prompt": "Simple icon of two satellites side by side, one labeled consumer and one government, no text", "alt_text": "Two satellites side by side"}, "art": {"svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"500\" viewBox=\"0 0 800 500\" fill=\"none\"><defs><radialGradient id=\"eg\" cx=\"50%\" cy=\"0%\" r=\"100%\"><stop offset=\"0\" stop-color=\"#5f86c9\"/><stop offset=\".55\" stop-color=\"#2a4478\"/><stop offset=\"1\" stop-color=\"#121c3a\"/><\/radialGradient><g id=\"sa\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" rx=\"2\" fill=\"inherit\"/><rect x=\"-30\" y=\"-4\" width=\"20\" height=\"8\" rx=\"1\" fill=\"inherit\" opacity=\".75\"/><rect x=\"10\" y=\"-4\" width=\"20\" height=\"8\" rx=\"1\" fill=\"inherit\" opacity=\".75\"/><path d=\"M-20 -4v8M20 -4v8\" stroke=\"#0b1020\" stroke-opacity=\".35\" stroke-width=\"1.5\"/><\/g><\/defs><circle cx=\"400\" cy=\"830\" r=\"530\" fill=\"#8fb4ff\" opacity=\".12\"/><circle cx=\"400\" cy=\"830\" r=\"500\" fill=\"url(#eg)\"/><circle cx=\"400\" cy=\"830\" r=\"500\" stroke=\"#bcd3ff\" stroke-opacity=\".6\" stroke-width=\"3\"/><ellipse cx=\"280\" cy=\"370\" rx=\"80\" ry=\"22\" fill=\"#8fd1a6\" opacity=\".22\" transform=\"rotate(-12 280 370)\"/><ellipse cx=\"450\" cy=\"360\" rx=\"100\" ry=\"18\" fill=\"#8fd1a6\" opacity=\".22\" transform=\"rotate(6 450 360)\"/><ellipse cx=\"570\" cy=\"395\" rx=\"60\" ry=\"20\" fill=\"#8fd1a6\" opacity=\".22\" transform=\"rotate(20 570 395)\"/><ellipse cx=\"330\" cy=\"440\" rx=\"110\" ry=\"24\" fill=\"#8fd1a6\" opacity=\".22\" transform=\"rotate(0 330 440)\"/><circle cx=\"400\" cy=\"830\" r=\"580\" stroke=\"#ffffff\" stroke-opacity=\".35\" stroke-width=\"2\" stroke-dasharray=\"4 8\"/><use href=\"#sa\" fill=\"#ffffff\" transform=\"translate(221 278) rotate(-18) scale(1.9)\"/><use href=\"#sa\" fill=\"#ffffff\" transform=\"translate(400 250) rotate(0) scale(1.9)\"/><use href=\"#sa\" fill=\"#ffffff\" transform=\"translate(579 278) rotate(18) scale(1.9)\"/><circle cx=\"400\" cy=\"830\" r=\"670\" stroke=\"#ffd84d\" stroke-opacity=\".35\" stroke-width=\"2\" stroke-dasharray=\"4 8\"/><use href=\"#sa\" fill=\"#ffd84d\" transform=\"translate(106 228) rotate(-26) scale(1.9)\"/><path d=\"M106 244 L181 381\" stroke=\"#ffd84d\" stroke-width=\"2\" stroke-dasharray=\"3 6\" opacity=\".8\"/><use href=\"#sa\" fill=\"#ffd84d\" transform=\"translate(295 168) rotate(-9) scale(1.9)\"/><use href=\"#sa\" fill=\"#ffd84d\" transform=\"translate(505 168) rotate(9) scale(1.9)\"/><path d=\"M505 184 L478 336\" stroke=\"#ffd84d\" stroke-width=\"2\" stroke-dasharray=\"3 6\" opacity=\".8\"/><\/svg>", "alt": "Two rings of satellites, white and amber, orbiting above Earth"}}, {"type": "idea", "headline": "Three focus areas", "body": "SpaceX named imagery, communications and hosted payloads as the focus of Starshield.", "emoji": "🎯", "visual": {"style": "icon", "image_prompt": "Simple icon of a camera, a radio wave and a box attached to a satellite", "alt_text": "Camera, signal and payload icons"}, "art": {"svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"500\" viewBox=\"0 0 800 500\" fill=\"none\"><defs><g id=\"sc\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" rx=\"2\" fill=\"inherit\"/><rect x=\"-30\" y=\"-4\" width=\"20\" height=\"8\" rx=\"1\" fill=\"inherit\" opacity=\".75\"/><rect x=\"10\" y=\"-4\" width=\"20\" height=\"8\" rx=\"1\" fill=\"inherit\" opacity=\".75\"/><path d=\"M-20 -4v8M20 -4v8\" stroke=\"#0b1020\" stroke-opacity=\".35\" stroke-width=\"1.5\"/><\/g><\/defs><use href=\"#sc\" fill=\"#fff\" transform=\"translate(400 70) scale(3.6)\"/><path d=\"M400 105 C400 190 150 200 150 300\" stroke=\"#ffd84d\" stroke-opacity=\".7\" stroke-width=\"3\" stroke-dasharray=\"3 8\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"370\" r=\"72\" fill=\"#fff\" fill-opacity=\".1\" stroke=\"#fff\" stroke-width=\"4\"/><path d=\"M400 105 C400 190 400 200 400 300\" stroke=\"#ffd84d\" stroke-opacity=\".7\" stroke-width=\"3\" stroke-dasharray=\"3 8\" stroke-linecap=\"round\"/><circle cx=\"400\" cy=\"370\" r=\"72\" fill=\"#fff\" fill-opacity=\".1\" stroke=\"#fff\" stroke-width=\"4\"/><path d=\"M400 105 C400 190 650 200 650 300\" stroke=\"#ffd84d\" stroke-opacity=\".7\" stroke-width=\"3\" stroke-dasharray=\"3 8\" stroke-linecap=\"round\"/><circle cx=\"650\" cy=\"370\" r=\"72\" fill=\"#fff\" fill-opacity=\".1\" stroke=\"#fff\" stroke-width=\"4\"/><rect x=\"112\" y=\"348\" width=\"76\" height=\"52\" rx=\"10\" stroke=\"#fff\" stroke-width=\"5\"/><path d=\"M135 348l7-12h16l7 12\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"150\" cy=\"374\" r=\"14\" stroke=\"#ffd84d\" stroke-width=\"5\"/><circle cx=\"400\" cy=\"395\" r=\"7\" fill=\"#ffd84d\"/><path d=\"M378 372a32 32 0 0 1 44 0M362 352a54 54 0 0 1 76 0M392 385a14 14 0 0 1 16 0\" stroke=\"#fff\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M650 335 L690 355 V398 L650 418 L610 398 V355 Z M610 355 L650 375 L690 355 M650 375 V418\" stroke=\"#fff\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"650\" cy=\"375\" r=\"6\" fill=\"#ffd84d\"/><\/svg>", "alt": "A satellite connected to a camera, a signal and a payload box icon"}}, {"type": "idea", "headline": "Extra security layer", "body": "SpaceX says it adds high-assurance cryptography to host classified payloads and process data securely.", "emoji": "🔐", "visual": {"style": "icon", "image_prompt": "Simple padlock icon over a satellite silhouette", "alt_text": "Padlock over a satellite"}, "art": {"svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"500\" viewBox=\"0 0 800 500\" fill=\"none\"><defs><g id=\"sb\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" rx=\"2\" fill=\"inherit\"/><rect x=\"-30\" y=\"-4\" width=\"20\" height=\"8\" rx=\"1\" fill=\"inherit\" opacity=\".75\"/><rect x=\"10\" y=\"-4\" width=\"20\" height=\"8\" rx=\"1\" fill=\"inherit\" opacity=\".75\"/><path d=\"M-20 -4v8M20 -4v8\" stroke=\"#0b1020\" stroke-opacity=\".35\" stroke-width=\"1.5\"/><\/g><\/defs><path d=\"M400 40 L640 120 V270 C640 380 530 440 400 485 C270 440 160 380 160 270 V120 Z\" fill=\"#ffffff\" fill-opacity=\".08\" stroke=\"#ffffff\" stroke-width=\"7\" stroke-linejoin=\"round\"/><path d=\"M400 75 L610 142 V268 C610 360 515 413 400 452 C285 413 190 360 190 268 V142 Z\" stroke=\"#ffd84d\" stroke-opacity=\".6\" stroke-width=\"2\" stroke-dasharray=\"3 8\"/><path d=\"M362 245 V215 a38 38 0 0 1 76 0 V245\" stroke=\"#fff\" stroke-width=\"15\" stroke-linecap=\"round\"/><rect x=\"335\" y=\"240\" width=\"130\" height=\"105\" rx=\"16\" fill=\"#fff\"/><circle cx=\"400\" cy=\"284\" r=\"14\" fill=\"#ffd84d\"/><rect x=\"394\" y=\"290\" width=\"12\" height=\"32\" rx=\"5\" fill=\"#ffd84d\"/><use href=\"#sb\" fill=\"#ffd84d\" transform=\"translate(80 90) rotate(-20) scale(2.4)\"/><use href=\"#sb\" fill=\"#ffd84d\" transform=\"translate(720 90) rotate(20) scale(2.4)\"/><path d=\"M110 120 C150 190 175 215 200 235\" stroke=\"#ffd84d\" stroke-width=\"3\" stroke-dasharray=\"3 9\" stroke-linecap=\"round\"/><path d=\"M690 120 C650 190 625 215 600 235\" stroke=\"#ffd84d\" stroke-width=\"3\" stroke-dasharray=\"3 9\" stroke-linecap=\"round\"/><\/svg>", "alt": "A padlock inside a shield with two satellites linking to it"}}, {"type": "stat", "value": "$70M", "label": "Max value of first Space Force contract", "body": "A one-year deal from September 2023 supporting 54 military partners.", "emoji": "📄"}, {"type": "idea", "headline": "Reported spy satellite ties", "body": "Media reports link Starshield to a National Reconnaissance Office constellation. The reported $1.8B value is unconfirmed.", "emoji": "🕵️", "visual": {"style": "icon", "image_prompt": "Simple icon of a satellite network over a globe with a question mark", "alt_text": "Satellite network over a globe"}, "img": {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/NROL-87_Launches_from_Vandenberg_%287032050%29.jpeg?width=900", "page": "https://commons.wikimedia.org/wiki/File:NROL-87_Launches_from_Vandenberg_%287032050%29.jpeg", "file": "NROL-87 Launches from Vandenberg (7032050).jpeg", "credit": "Falcon 9 launching NROL-87 for the NRO, 2022. U.S. Space Force photo via Wikimedia Commons"}}, {"type": "closing", "headline": "Where this comes from", "body": "CNBC (Dec 2022, Sep 2023), Engadget and GlobalSecurity. Some details are media reports, not confirmed.", "cta": "Check the sources 🔎", "emoji": "📚"}]}]};
+const E=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $=id=>document.getElementById(id);
+function slide(s,i,n){let h=`<div class="em" role="img" aria-label="${E(s.visual?.alt_text||'')}">${E(s.emoji)}</div>`;
+ if(s.type==='cover')h+=`<h2 class="t">${E(s.headline)}</h2>${s.subtitle?`<p class="sub">${E(s.subtitle)}</p>`:''}<span class="sw">Swipe →</span>`;
+ else if(s.type==='stat')h+=`<p class="big">${E(s.value)}</p><p class="lab">${E(s.label)}</p>${s.body?`<p class="b">${E(s.body)}</p>`:''}`;
+ else if(s.type==='quote')h+=`<p class="q">${E(s.text)}</p><div class="sp">${E(s.speaker)}</div>`;
+ else if(s.type==='closing')h+=`<h2 class="t">${E(s.headline)}</h2><p class="b">${E(s.body)}</p>${s.cta?`<span class="cta">${E(s.cta)}</span>`:''}`;
+ else h+=`<h2 class="t">${E(s.headline)}</h2><p class="b">${E(s.body)}</p>`;
+ if(s.art)h+=`<div class="art" role="img" aria-label="${E(s.art.alt)}">${s.art.svg}</div>`;const im=s.img;if(im)h+=`<span class="cr">${E(im.credit)} · <a href="${E(im.page)}" target="_blank" rel="noopener">source</a></span>`;
+ return `<section class="sl ${s.type} ${all.cur.theme.palette}${im?' has-img':''}${s.art?' has-art':''}"${im?` style="--img:url('${E(im.url)}')"`:''}>${h}<span class="pg">${i+1}/${n}</span></section>`}
+function show(k){const c=all.items[k];all.cur=c;$('rail').innerHTML=c.slides.map((s,i)=>slide(s,i,c.slides.length)).join('');
+ $('dots').innerHTML=c.slides.map(()=>'<i></i>').join('');$('src').textContent=c.source.name;
+ $('cap').innerHTML=`<b>newsincards</b> ${E(c.caption)}`;$('tags').textContent=c.hashtags.join(' ');
+ $('rail').scrollLeft=0;upd();[...$('pick').children].forEach((b,j)=>b.setAttribute('aria-pressed',j===k))}
+const upd=()=>{const r=$('rail'),i=Math.round(r.scrollLeft/r.clientWidth);[...$('dots').children].forEach((d,j)=>d.classList.toggle('on',j===i))};
+$('rail').addEventListener('scroll',upd);
+const go=d=>$('rail').scrollBy({left:d*$('rail').clientWidth,behavior:'smooth'});
+$('prev').onclick=()=>go(-1);$('next').onclick=()=>go(1);
+$('pick').innerHTML=all.items.map((c,k)=>`<button type="button">${E(c.title.length>34?c.title.slice(0,33)+'…':c.title)}</button>`).join('');
+[...$('pick').children].forEach((b,k)=>b.onclick=()=>show(k));
+const F=[['portrait','Portrait 4:5 (Instagram)'],['square','Square 1:1'],['wide','Wide 16:9 (YouTube)']];
+function setF(f){document.documentElement.dataset.f=f;try{localStorage.setItem('nic-f',f)}catch(e){}[...$('fmt').children].forEach((b,i)=>b.setAttribute('aria-pressed',F[i][0]===f));const r=$('rail');r.style.scrollBehavior='auto';r.scrollLeft=Math.round(r.scrollLeft/(r.clientWidth||1))*r.clientWidth;requestAnimationFrame(upd)}
+$('fmt').innerHTML=F.map(x=>`<button type="button">${x[1]}</button>`).join('');
+[...$('fmt').children].forEach((b,i)=>b.onclick=()=>{const r=$('rail'),idx=Math.round(r.scrollLeft/r.clientWidth);setF(F[i][0]);requestAnimationFrame(()=>{r.scrollLeft=idx*r.clientWidth;upd()})});
+let f0='portrait';try{f0=localStorage.getItem('nic-f')||f0}catch(e){}
+show(0);setF(F.some(x=>x[0]===f0)?f0:'portrait');
+</script>
+
+<script>
+/* Export slides as PNG at posting sizes: drawn on a canvas with the same proportions as the preview */
+const FMT={portrait:{w:1080,h:1350,k:1},square:{w:1080,h:1080,k:.78},wide:{w:1920,h:1080,k:.62}};
+const DISP='"Bricolage Grotesque",system-ui,sans-serif',BODY='"DM Sans",system-ui,sans-serif',EMO='"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif';
+const imgCache={};
+function loadImg(url){return imgCache[url]??=new Promise(res=>{const i=new Image();i.crossOrigin='anonymous';const t=setTimeout(()=>res(null),20000);i.onload=()=>{clearTimeout(t);res(i)};i.onerror=()=>{clearTimeout(t);res(null)};i.src=url})}
+async function loadExportImg(url){const hi=url.replace(/width=\d+/,'width=2000'),raw=url.replace(/\?width=\d+/,'');return (await loadImg(hi))||(await loadImg(raw))}
+function pal(name){const d=document.createElement('div');d.className=name;document.body.appendChild(d);const cs=getComputedStyle(d),r={c1:cs.getPropertyValue('--c1').trim(),c2:cs.getPropertyValue('--c2').trim(),ct:cs.getPropertyValue('--ct').trim()};d.remove();return r}
+function wrapRaw(ctx,text,w){const out=[];let cur='';for(const word of text.split(/\s+/)){const t=cur?cur+' '+word:word;if(!cur||ctx.measureText(t).width<=w)cur=t;else{out.push(cur);cur=word}}out.push(cur);return out}
+function wrap(ctx,text,w,balance){let l=wrapRaw(ctx,text,w);if(balance&&l.length>1){let lo=0,hi=w;for(let i=0;i<14;i++){const m=(lo+hi)/2;wrapRaw(ctx,text,m).length>l.length?lo=m:hi=m}l=wrapRaw(ctx,text,hi)}return l}
+function cssGrad(ctx,W,H,deg,stops){const a=deg*Math.PI/180,dx=Math.sin(a),dy=-Math.cos(a),L=Math.abs(W*dx)+Math.abs(H*dy),g=ctx.createLinearGradient(W/2-dx*L/2,H/2-dy*L/2,W/2+dx*L/2,H/2+dy*L/2);stops.forEach(([o,c])=>g.addColorStop(o,c));return g}
+async function renderSlide(c,idx,fmt){
+ const {w:W,h:H,k}=FMT[fmt],u=W/100*k,s=c.slides[idx],n=c.slides.length,P=pal(c.theme.palette);
+ const cv=document.createElement('canvas');cv.width=W;cv.height=H;const ctx=cv.getContext('2d');
+ let imgOk=null,col=P.ct,artFailed=false;
+ ctx.fillStyle=cssGrad(ctx,W,H,160,[[0,P.c1],[1,P.c2]]);ctx.fillRect(0,0,W,H);
+ if(s.img){const im=await loadExportImg(s.img.url);imgOk=!!im;
+  if(im){const r=Math.max(W/im.width,H/im.height),dw=im.width*r,dh=im.height*r;ctx.drawImage(im,(W-dw)/2,(H-dh)/2,dw,dh);
+   ctx.fillStyle=cssGrad(ctx,W,H,180,[[0,'rgba(0,0,0,.25)'],[1,'rgba(0,0,0,.72)']]);ctx.fillRect(0,0,W,H);col='#fff'}}
+ const blocks=[],T=s.type,mw=(W-18*u)*(fmt==='wide'&&s.art?.5:1);
+ const add=(text,size,weight,fam,lh,alpha,o={})=>{ctx.font=`${weight} ${size}px ${fam}`;ctx.letterSpacing=(o.ls||0)*size+'px';const lines=wrap(ctx,text,mw,o.balance);ctx.letterSpacing='0px';blocks.push({lines,size,weight,fam,lh,alpha,ls:o.ls||0,h:lines.length*size*lh,kind:'text'})};
+ if(T==='cover'){add(s.headline,10.5*u,800,DISP,1.04,1,{balance:1,ls:-.015});if(s.subtitle)add(s.subtitle,3.9*u,400,BODY,1.4,.85)}
+ else if(T==='stat'){add(s.value,21*u,800,DISP,.95,1,{ls:-.03});add(s.label,4.8*u,600,BODY,1.25,1);if(s.body)add(s.body,4.3*u,400,BODY,1.4,.92)}
+ else if(T==='quote'){blocks.push({kind:'mark',h:.6*18*u,size:18*u});add(s.text,12*u,800,DISP,1,1);add(s.speaker,3.6*u,600,BODY,1.4,.9)}
+ else if(T==='closing'){add(s.headline,9*u,800,DISP,1.04,1,{balance:1,ls:-.015});add(s.body,4.3*u,400,BODY,1.4,.92);if(s.cta){const size=3.2*u;ctx.font=`600 ${size}px ${BODY}`;blocks.push({kind:'cta',text:s.cta,size,w:ctx.measureText(s.cta).width+2.2*size,h:size*1.4+size})}}
+ else{add(s.headline,9*u,800,DISP,1.04,1,{balance:1,ls:-.015});add(s.body,4.3*u,400,BODY,1.4,.92)}
+ const gap=3*u,total=blocks.reduce((a,b)=>a+b.h,0)+gap*(blocks.length-1),top=T==='cover'?null:(T==='stat'||T==='quote'?15:27)*u,bot=H-13*u;
+ let y=T==='cover'?bot-total:(T==='stat'||T==='quote'?top+Math.max(0,(bot-top-total)/2):top);
+ ctx.fillStyle=col;ctx.textBaseline='top';ctx.textAlign='left';
+ for(const b of blocks){
+  if(b.kind==='mark'){ctx.globalAlpha=.4;ctx.font=`800 ${b.size}px ${DISP}`;ctx.fillText('“',9*u,y-b.size*.1);ctx.globalAlpha=1}
+  else if(b.kind==='cta'){ctx.globalAlpha=1;ctx.strokeStyle=col;ctx.lineWidth=1.5*W/440;ctx.beginPath();ctx.roundRect(9*u,y,b.w,b.h,b.h/2);ctx.stroke();ctx.font=`600 ${b.size}px ${BODY}`;ctx.fillText(b.text,9*u+1.1*b.size,y+b.size*.5+b.size*.2)}
+  else{ctx.globalAlpha=b.alpha;ctx.font=`${b.weight} ${b.size}px ${b.fam}`;ctx.letterSpacing=b.ls*b.size+'px';b.lines.forEach((t,i)=>ctx.fillText(t,9*u,y+i*b.size*b.lh+(b.size*b.lh-b.size)/2));ctx.letterSpacing='0px';ctx.globalAlpha=1}
+  y+=b.h+gap}
+ if(s.art){const im=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(s.art.svg));if(im){let ax,ay,aw,ah;if(fmt==='wide'){aw=.42*W;ax=W-9*u-aw;ay=9*u;ah=H-22*u}else{ax=9*u;aw=W-18*u;ay=y+2*u;ah=bot-ay}
+  if(ah>0){const r=Math.min(aw/im.width,ah/im.height),dw=im.width*r,dh=im.height*r;ctx.drawImage(im,ax+(aw-dw)/2,ay+(ah-dh)/2,dw,dh)}}else artFailed=true}
+ const es=(T==='cover'?20:14)*u;ctx.font=`${es}px ${EMO}`;ctx.shadowColor='rgba(0,0,0,.25)';ctx.shadowBlur=10*W/440;ctx.shadowOffsetY=4*W/440;ctx.globalAlpha=1;ctx.fillStyle='#000';ctx.fillText(s.emoji,9*u,(T==='stat'||T==='quote'?.06:.07)*H);ctx.shadowColor='transparent';ctx.shadowBlur=0;ctx.shadowOffsetY=0;
+ if(s.img&&imgOk){ctx.textAlign='right';ctx.textBaseline='top';const cs=2.2*u;ctx.font=`400 ${cs}px ${BODY}`;ctx.globalAlpha=.8;wrap(ctx,s.img.credit,W*.48,0).forEach((t,i)=>ctx.fillText(t,W*.95,H*.03+i*cs*1.25))}
+ ctx.globalAlpha=1;
+ return {canvas:cv,imgFailed:(!!s.img&&!imgOk)||artFailed};
+}
+const toBlob=cv=>new Promise(r=>cv.toBlob(r,'image/png'));
+const crcT=(()=>{const t=[];for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
+const crc32=b=>{let c=~0;for(let i=0;i<b.length;i++)c=crcT[(c^b[i])&255]^(c>>>8);return ~c>>>0};
+function zip(files){const parts=[],cen=[];let off=0;const enc=new TextEncoder();
+ for(const f of files){const nm=enc.encode(f.name),crc=crc32(f.data),L=new DataView(new ArrayBuffer(30));
+  L.setUint32(0,0x04034b50,true);L.setUint16(4,20,true);L.setUint32(14,crc,true);L.setUint32(18,f.data.length,true);L.setUint32(22,f.data.length,true);L.setUint16(26,nm.length,true);
+  parts.push(L.buffer,nm,f.data);
+  const C=new DataView(new ArrayBuffer(46));C.setUint32(0,0x02014b50,true);C.setUint16(4,20,true);C.setUint16(6,20,true);C.setUint32(16,crc,true);C.setUint32(20,f.data.length,true);C.setUint32(24,f.data.length,true);C.setUint16(28,nm.length,true);C.setUint32(42,off,true);
+  cen.push(C.buffer,nm);off+=30+nm.length+f.data.length}
+ const cs=cen.reduce((a,b)=>a+b.byteLength,0),E2=new DataView(new ArrayBuffer(22));E2.setUint32(0,0x06054b50,true);E2.setUint16(8,files.length,true);E2.setUint16(10,files.length,true);E2.setUint32(12,cs,true);E2.setUint32(16,off,true);
+ return new Blob([...parts,...cen,E2.buffer],{type:'application/zip'})}
+let dl;try{claude.use('downloads').then(d=>dl=d,()=>{})}catch(e){}
+async function saveFile(name,blob){
+ if(dl){try{await dl.save({filename:name,data:blob});return 'saved'}catch(e){if(e&&e.code==='declined')return 'declined'}}
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000);return 'saved'}
+const msg=t=>$('expmsg').textContent=t;
+async function prep(){try{await Promise.all(['800 40px "Bricolage Grotesque"','400 20px "DM Sans"','600 20px "DM Sans"'].map(f=>document.fonts.load(f)))}catch(e){}}
+async function exportOne(){const c=all.cur,fmt=document.documentElement.dataset.f||'portrait',r=$('rail'),i=Math.min(c.slides.length-1,Math.round(r.scrollLeft/r.clientWidth));
+ msg('Rendering…');await prep();const {canvas,imgFailed}=await renderSlide(c,i,fmt),b=await toBlob(canvas);
+ const res=await saveFile(`${c.id}-${String(i+1).padStart(2,'0')}-${fmt}.png`,b);
+ msg(res==='declined'?'Download canceled.':`Slide ${i+1} exported as ${FMT[fmt].w}×${FMT[fmt].h} PNG.`+(imgFailed?' The photo could not be loaded, so this slide has the plain colour background.':''))}
+async function exportAll(){const c=all.cur,fmt=document.documentElement.dataset.f||'portrait';msg('Rendering…');await prep();const files=[],failed=[];
+ for(let i=0;i<c.slides.length;i++){msg(`Rendering slide ${i+1} of ${c.slides.length}…`);const {canvas,imgFailed}=await renderSlide(c,i,fmt);if(imgFailed)failed.push(i+1);files.push({name:`${c.id}-${String(i+1).padStart(2,'0')}-${fmt}.png`,data:new Uint8Array(await (await toBlob(canvas)).arrayBuffer())})}
+ const res=await saveFile(`${c.id}-${fmt}.zip`,zip(files));
+ msg(res==='declined'?'Download canceled.':`${files.length} slides exported as ${FMT[fmt].w}×${FMT[fmt].h} PNGs in one zip.`+(failed.length?` The photo could not be loaded for slide${failed.length>1?'s':''} ${failed.join(', ')}; ${failed.length>1?'those have':'it has'} the plain colour background.`:''))}
+$('exp1').onclick=()=>exportOne().catch(e=>msg('Export failed: '+e.message));
+$('expAll').onclick=()=>exportAll().catch(e=>msg('Export failed: '+e.message));
+</script>
+</body></html>
